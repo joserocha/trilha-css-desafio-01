@@ -1,0 +1,190 @@
+
+/* general */
+
+* {
+    font-family: 'Raleway', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+  }
+
+body {
+    background-color: #000000;
+}
+
+
+/* header */
+
+.banner {
+    height: 600px;
+    padding-top: 60px;
+    border-bottom: 1px solid #33A8DB80;
+    background: linear-gradient(rgba(0, 0, 0, .6),
+                                rgba(49, 168, 221, .2),
+                                rgba(0, 0, 0, .6)),
+                url("../images/banner.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+    .banner .banner-content {
+        color: #FFFFFF;
+        width: 600px;
+        margin: auto;
+        text-align: center;
+    }
+
+        .banner .banner-content button {
+            color: #31A8DD;
+            font-size: 1rem;
+            font-weight: bold;
+            text-transform: uppercase;
+            border: 2px solid #31A8DD;
+            padding: 16px 32px;
+            letter-spacing: 4px;
+            background: transparent;
+        }
+
+    .banner .logo {
+        background-color: rgba(0, 0, 0, .2);
+        height: 260px;
+        width: 260px;
+        margin: auto;
+        border-radius: 50%;
+        padding: 16px;
+        margin-bottom: 16px;
+    }
+
+        .banner .logo img {
+            margin: auto;
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+        }
+
+    .banner h1 {
+        font-size: 2.5rem;
+        font-weight: 900;
+        text-transform: uppercase;
+        color: transparent;
+        background: -webkit-linear-gradient(#33A8DB, #1472B7);
+        background-clip: text;
+        -webkit-background-clip: text;
+    }
+
+    .banner p {
+        font-size: 1.25rem;
+        margin: 16px 0 24px;
+    }
+
+
+/* main - general */
+main section {
+    margin: 100px auto;
+    width: 800px;
+}
+
+
+/* main - section 1 */
+
+main #course-content {
+    text-align: center;
+}
+
+    main #course-content h2 {
+        font-size: 2.0rem;
+        letter-spacing: 4px;
+        text-transform: uppercase;
+        color: #33A8DB;
+        margin-bottom: 24px;
+    }
+
+        main #course-content h2 + p {
+            color: #FFFFFF;
+        }
+    
+    main #course-content .modules-list {
+        margin: 24px 0;
+    }
+
+        main #course-content .modules-list .module {
+            width: 530px;
+            color: #FFFFFF;
+            background: #252525;
+            padding: 16px;
+            box-sizing: content-box;
+            border: 1px solid #33A8DB;
+            border-radius: 100px;
+            margin: 0 auto 24px;
+            box-shadow: inset -5px 6px 8px rgba(0, 0, 0, .7);
+        }
+
+            main #course-content .modules-list .module span {
+                color: #33A8DB;
+            }
+
+
+
+/* main - section 2 */
+
+main #transform-world {
+    background: url("../images/woman-code.png") fixed;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 560px;
+    border-top: 1px solid #33A8DB;
+    border-bottom: 1px solid #33A8DB;
+    padding: 200px;
+}
+
+    main #transform-world p {
+        color: #FFFFFF;
+        font-size: 2.5rem;
+        font-weight: 900;
+        text-shadow: 3px 2px #33A8DB;
+        text-transform: lowercase;
+        width: 250px;
+    }
+
+
+/* main - section 3 */
+
+main #professional-challenges {
+    text-align: center;
+}
+
+    main #professional-challenges h2 {
+        font-size: 2.0rem;
+        letter-spacing: 4px;
+        text-transform: uppercase;
+        color: #33A8DB;
+        margin: 24px 0;
+    }
+
+    main #professional-challenges img {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    main #professional-challenges p {
+        color: #FFFFFF;
+    }
+
+
+/* footer */
+
+footer {
+    text-align: center;
+    color: #FFFFFF;
+    height: 170px;
+    border-top: 1px solid #33A8DB;
+    background: linear-gradient(rgba(0, 0, 0, .6),
+                                rgba(49, 168, 221, .2));
+    padding: 60px 0;
+}
+
+    footer a {
+        color: #33A8DB;
+        font-weight: bold;
+        text-decoration: none;
+    }
